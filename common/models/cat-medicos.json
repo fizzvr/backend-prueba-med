@@ -1,0 +1,37 @@
+{
+  "name": "cat_medicos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "cedula": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cat_especialidades": {
+      "type": "belongsTo",
+      "model": "cat_especialidades",
+      "foreignKey": "especialidad_id"
+    },
+    "cat_ciudades": {
+      "type": "belongsTo",
+      "model": "cat_ciudades",
+      "foreignKey": "ciudad_id"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
