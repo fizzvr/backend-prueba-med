@@ -10,10 +10,14 @@
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.8.1",
+    "dotenv": "^16.0.1",
+    "express-state": "^2.0.0",
+    "helmet": "^5.0.2",
     "loopback": "^3.0.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.1.0",
     "loopback-connector-mysql": "^2.2.0",
+    "morgan": "^1.10.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^1.1.0"
   },
