@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "accountDS": {
+    "host": "servermysqlmetrored.mysql.database.azure.com",
+    "port": 3306,
+    "database": "db_metrored",
+    "username": "dbrootvr",
+    "password": "ramones1055@@",
+    "name": "accountDS",
+    "connector": "mysql"
+  }
+}
